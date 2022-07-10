@@ -1,0 +1,29 @@
+{
+  "name": "server-side",
+  "version": "1.0.0",
+  "description": "Server for the React Todo list application",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "Express",
+    "Backend",
+    "Server",
+    "Side"
+  ],
+  "author": "Sakrateesh R",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
