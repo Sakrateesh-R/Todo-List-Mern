@@ -2,7 +2,7 @@ import express from "express";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
 import cors from "cors";
-import taskRouter from "../Backend/routes/taskRouter.js";
+import taskRouter from "./routes/taskRouter.js";
 dotenv.config();
 const app = express();
 app.use(express.json());
