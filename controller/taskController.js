@@ -9,7 +9,7 @@ export const createTask = (req,res) =>{
 };
 export const allTask = (req,res) => {
     Task.find()
-        .then( (task) => res.status(200).json({task,news:"data added"}))
+        .then( (task) => res.status(200).json({task}))
         .catch( (err) => res.status(400).json(`Error occurs while getting post ${err}`))
     //res.send("Getting all Post");
 };
